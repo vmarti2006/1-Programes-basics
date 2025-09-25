@@ -1,5 +1,5 @@
-# 🖥️ Pràctica C# - 1 Programes bàsics
- 
+# 🖥️ Pràctica C# - Exercicis bàsics
+
 Aquesta pràctica consisteix en resoldre una sèrie d’exercicis de C#. Cada exercici té el seu fitxer dins la carpeta `exercicis/`.  
 
 Segueix les instruccions i fes que cada programa funcioni segons l’enunciat.  
@@ -16,6 +16,7 @@ cd 1-Programes-basics
 2. Obre el projecte amb **Visual Studio** o l’editor que prefereixis.
 3. Escriu el codi dins de cada fitxer `ExerciciX.cs`.
 4. Per executar un programa:
+
    * Obre **Visual Studio** i crea un projecte de tipus `Console App` (C#).
    * Copia el contingut de `ExerciciX.cs` al projecte i fes **Run**.
 5. Quan acabis, guarda els canvis i fes:
@@ -26,9 +27,11 @@ git commit -m "Exercicis completats"
 git push
 ```
 
+---
+
 ## 📂 Estructura de carpetes
 
-
+```
 csharp-practica1/
 ├── exercicis/
 │   ├── Exercici1.cs
@@ -71,4 +74,6 @@ csharp-practica1/
 * Executa cada fitxer dins d’un projecte de **Console App** per comprovar que funciona.
 * Fes `git push` regularment per no perdre feina.
 
-Bona pràctica! 
+Bona pràctica!
+Vols que ho faci?
+```
