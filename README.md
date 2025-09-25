@@ -32,7 +32,7 @@ git push
 ## 📂 Estructura de carpetes
 
 ```
-csharp-practica1/
+1-Programes-basics/
 ├── exercicis/
 │   ├── Exercici1.cs
 │   ├── Exercici2.cs
