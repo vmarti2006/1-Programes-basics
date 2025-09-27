@@ -1,1 +1,0 @@
-// A partir de dues variables (nom d'usuari i domini), crea i imprimeix una adreça de correu electrònic completa.
