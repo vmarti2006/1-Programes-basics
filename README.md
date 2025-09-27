@@ -19,7 +19,7 @@ cd 1-Programes-basics
 
    * Obre **Visual Studio** i crea un projecte de tipus `Console App` (C#).
    * Copia el contingut de `ExerciciX.cs` al projecte i fes **Run**.
-5. Quan acabis, guarda els canvis i fes:
+5. Quan acabis, guarda els canvis i fent:
 
 ```bash
 git add .
@@ -62,4 +62,3 @@ Els trobare a un document pdf **1-Programes bàsics.pdf**
 * Fes `git push` regularment per no perdre feina.
 
 Bona pràctica!
-```
