@@ -30,13 +30,19 @@ git push
 ---
 
 ## 📂 Estructura de carpetes
-
+Pot ser que dins a cada un dels exercicis també hi tingueu la carpeta "bin" i la carpeta "obj"
 ```
 1-Programes-basics/
 ├── exercicis/
-│   ├── Exercici1.cs
-│   ├── Exercici2.cs
-│   ├── Exercici3.cs
+│   ├── exercici1/
+│   │   ├─ Program.cs
+│   │   └─ exercici1.csproj
+│   ├── exercici2/
+│   │   ├─ Program.cs
+│   │   └─ exercici2.csproj
+│   ├── exercici3/
+│   │   ├─ Program.cs
+│   │   └─ exercici3.csproj
 │   └── ...
 └── README.md
 ```
