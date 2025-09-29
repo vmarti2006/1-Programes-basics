@@ -61,6 +61,7 @@ Els trobareu a un document pdf **1-Programes bàsics.pdf**
 * Executa cada fitxer dins d’un projecte de **Console App** per comprovar que funciona.
 * Fes `git push` regularment per no perdre feina.
 
+---
 ## 🗂️➡️ Entrega
 * Carpeta del projecte amb tot el codi (`.cs`) al repositori GitHub.
 * Report (`report.md` o PDF) amb breu descripció i captures de cada exercici, també al repositori.
