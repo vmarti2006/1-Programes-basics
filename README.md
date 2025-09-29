@@ -51,7 +51,7 @@ Pot ser que dins a cada un dels exercicis també hi tingueu la carpeta "bin" i l
 
 ## ✍️ Exercicis
 
-Els trobare a un document pdf **1-Programes bàsics.pdf**
+Els trobareu a un document pdf **1-Programes bàsics.pdf**
 
 ---
 
