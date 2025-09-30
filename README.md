@@ -19,7 +19,7 @@ cd 1-Programes-basics
 
    * Obre **Visual Studio** i crea un projecte de tipus `Console App` (C#).
    * Copia el contingut de `ExerciciX.cs` al projecte i fes **Run**.
-5. Quan acabis, guarda els canvis i fes:
+5. Quan acabis, guarda els canvis i fent:
 
 ```bash
 git add .
@@ -30,13 +30,19 @@ git push
 ---
 
 ## 📂 Estructura de carpetes
-
+Pot ser que dins a cada un dels exercicis també hi tingueu la carpeta "bin" i la carpeta "obj"
 ```
 1-Programes-basics/
 ├── exercicis/
-│   ├── Exercici1.cs
-│   ├── Exercici2.cs
-│   ├── Exercici3.cs
+│   ├── exercici1/
+│   │   ├─ Program.cs
+│   │   └─ exercici1.csproj
+│   ├── exercici2/
+│   │   ├─ Program.cs
+│   │   └─ exercici2.csproj
+│   ├── exercici3/
+│   │   ├─ Program.cs
+│   │   └─ exercici3.csproj
 │   └── ...
 └── README.md
 ```
@@ -45,7 +51,7 @@ git push
 
 ## ✍️ Exercicis
 
-Els trobare a un document pdf **1-Programes bàsics.pdf**
+Els trobareu a un document pdf **1-Programes bàsics.pdf**
 
 ---
 
@@ -55,5 +61,10 @@ Els trobare a un document pdf **1-Programes bàsics.pdf**
 * Executa cada fitxer dins d’un projecte de **Console App** per comprovar que funciona.
 * Fes `git push` regularment per no perdre feina.
 
+---
+## 🗂️➡️ Entrega
+* Carpeta del projecte amb tot el codi (`.cs`) al repositori GitHub.
+* Report (`report.md` o PDF) amb breu descripció i captures de cada exercici, també al repositori.
+
+---
 Bona pràctica!
-```
