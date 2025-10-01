@@ -23,8 +23,7 @@ class Program
         Console.Write("Entra el nom:");
         string nom = Console.ReadLine();
         Console.Write("Entra el cognom:");
-        string cognom = Console.ReadLine();
-       
+        string cognom = Console.ReadLine(); 
         Console.WriteLine($"Em dic {cognom}, {nom} {cognom}");
     }
 }

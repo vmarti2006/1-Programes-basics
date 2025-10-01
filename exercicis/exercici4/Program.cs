@@ -10,7 +10,22 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        
+        Console.Write("Producto: ");
+        string producte = Console.ReadLine();
+
+        Console.Write("Precio en Euros: ");
+        string eurosInput = Console.ReadLine();
+
+        // Convertir la entrada a double
+        if (double.TryParse(eurosInput, out double euros))
+        {
+            double pesetas = euros * 166.386;
+            Console.WriteLine($"El precio de {producte} es {euros}€ lo que serían {pesetas:F2} pesetas");
+        }
+        else
+        {
+            Console.WriteLine("Error: El precio introducido no es válido.");
+        }
+
     }
 }
