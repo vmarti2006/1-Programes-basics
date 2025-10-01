@@ -8,6 +8,22 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Di tu nombre: ");
+        string nom = Console.ReadLine();
+
+        Console.Write("En que año naciste: ");
+        string nace = Console.ReadLine();
+
+        if (int.TryParse(nace, out int anyNaixement))
+         {
+            int anyActual = DateTime.Now.Year;
+            int edat = anyActual - anyNaixement;
+
+            Console.WriteLine($"Hola {nom}! Ja tens {edat} anys?");
+        }
+        else
+        {
+            Console.WriteLine("L'any de naixement no és vàlid.");
+        }
     }
 }
