@@ -26,23 +26,26 @@ class Program
     {
         Console.Write("Entra el primer numero ");
         string numero1_car = Console.ReadLine();
-        int numero1 = Convert.ToInt16(numero1_car);
 
         Console.Write("Entra el segon numero ");
         string numero2_car = Console.ReadLine();
-        int numero2 = Convert.ToInt16(numero2_car);
+        if (int.TryParse(numero1_car, out int numero1) && int.TryParse(numero2_car, out int numero2))
+        {
+            int suma = numero1 + numero2;
+            int resta = numero1 - numero2;
+            int multi = numero1 * numero2;
+            int div = numero1 / numero2;
+            int porcentaje = numero1 % numero2;
 
-        int suma = numero1 + numero2;
-        int resta = numero1 - numero2;
-        int multi = numero1 * numero2;
-        int div = numero1 / numero2;
-        int porcentaje = numero1 % numero2;
 
-
-        Console.WriteLine($"{numero1} + {numero2} = {suma}");
-        Console.WriteLine($"{numero1} - {numero2} = {resta}");
-        Console.WriteLine($"{numero1} * {numero2} = {multi}");
-        Console.WriteLine($"{numero1} / {numero2} = {multi} i en sobra {porcentaje}");
-
+            Console.WriteLine($"{numero1} + {numero2} = {suma}");
+            Console.WriteLine($"{numero1} - {numero2} = {resta}");
+            Console.WriteLine($"{numero1} * {numero2} = {multi}");
+            Console.WriteLine($"{numero1} / {numero2} = {multi} i en sobra {porcentaje}");
+        }
+        else
+        {
+            Console.WriteLine("no es procesasable");
+        }
     }
 }
