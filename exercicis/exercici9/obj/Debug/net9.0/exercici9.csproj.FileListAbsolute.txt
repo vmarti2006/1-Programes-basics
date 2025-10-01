@@ -1,0 +1,15 @@
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\obj\Debug\net9.0\exercici9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\obj\Debug\net9.0\exercici9.AssemblyInfoInputs.cache
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\obj\Debug\net9.0\exercici9.AssemblyInfo.cs
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\obj\Debug\net9.0\exercici9.csproj.CoreCompileInputs.cache
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\obj\Debug\net9.0\exercici9.sourcelink.json
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\bin\Debug\net9.0\exercici9.exe
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\bin\Debug\net9.0\exercici9.deps.json
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\bin\Debug\net9.0\exercici9.runtimeconfig.json
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\bin\Debug\net9.0\exercici9.dll
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\bin\Debug\net9.0\exercici9.pdb
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\obj\Debug\net9.0\exercici9.dll
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\obj\Debug\net9.0\refint\exercici9.dll
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\obj\Debug\net9.0\exercici9.pdb
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\obj\Debug\net9.0\exercici9.genruntimeconfig.cache
+C:\Users\victo\Documents\1.0_clase\DAW\programacio\1-Programes-basics\exercicis\exercici9\obj\Debug\net9.0\ref\exercici9.dll

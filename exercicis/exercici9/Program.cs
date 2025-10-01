@@ -7,6 +7,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Dime cuantors metros quieres? ");
+        string metre_car = Console.ReadLine();
+        int metres = Convert.ToInt16(metre_car);
+
+        double peus = (double)metres * 3.28084;
+        Console.WriteLine($"LLavors sera uns {peus} en peus");
     }
 }
