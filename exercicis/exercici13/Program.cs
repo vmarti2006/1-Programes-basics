@@ -19,6 +19,13 @@ class Program
     {
         Console.WriteLine("Introduce la fecha");
         string data_mala = Console.ReadLine();
-        
+
+        string dia = data_mala.Substring(0, 2);
+        string mes = data_mala.Substring(2, 2);
+        string any = data_mala.Substring(4);
+
+        Console.WriteLine($"Avui es {dia}/{mes}/{any} ");
+
+
     }
 }

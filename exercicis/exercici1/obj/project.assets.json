@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victo\\Documents\\1.0_clase\\DAW\\programacio\\1-Programes-basics\\exercicis\\exercici13\\exercici13.csproj",
-      "projectName": "exercici13",
-      "projectPath": "C:\\Users\\victo\\Documents\\1.0_clase\\DAW\\programacio\\1-Programes-basics\\exercicis\\exercici13\\exercici13.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\Documents\\1.0_clase\\DAW\\programacio\\1-Programes-basics\\exercicis\\exercici1\\exercici1.csproj",
+      "projectName": "exercici1",
+      "projectPath": "C:\\Users\\victo\\Documents\\1.0_clase\\DAW\\programacio\\1-Programes-basics\\exercicis\\exercici1\\exercici1.csproj",
       "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victo\\Documents\\1.0_clase\\DAW\\programacio\\1-Programes-basics\\exercicis\\exercici13\\obj\\",
+      "outputPath": "C:\\Users\\victo\\Documents\\1.0_clase\\DAW\\programacio\\1-Programes-basics\\exercicis\\exercici1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config"
