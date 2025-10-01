@@ -7,6 +7,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Un total de ");
+        string minuts_car = Console.ReadLine();
+        int minuts = Convert.ToInt16(minuts_car);
+
+        int hores = minuts / 60;
+        int h_m = minuts % 60;
+
+        Console.WriteLine($"{minuts}m es igual a {hores}h i {h_m}");
     }
 }
