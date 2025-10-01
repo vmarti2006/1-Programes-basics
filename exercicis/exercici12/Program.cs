@@ -11,7 +11,6 @@ Entra el segon número: 4
 4 * 5 = 12
 4 / 3 = 1  i en sobra 1
 
-
 Entra el primer número: 25
 Entra el segon número: 5
 
@@ -21,12 +20,29 @@ Entra el segon número: 5
 25 / 5 = 5  i en sobra 0
 */
 
-
-
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Entra el primer numero ");
+        string numero1_car = Console.ReadLine();
+        int numero1 = Convert.ToInt16(numero1_car);
+
+        Console.Write("Entra el segon numero ");
+        string numero2_car = Console.ReadLine();
+        int numero2 = Convert.ToInt16(numero2_car);
+
+        int suma = numero1 + numero2;
+        int resta = numero1 - numero2;
+        int multi = numero1 * numero2;
+        int div = numero1 / numero2;
+        int porcentaje = numero1 % numero2;
+
+
+        Console.WriteLine($"{numero1} + {numero2} = {suma}");
+        Console.WriteLine($"{numero1} - {numero2} = {resta}");
+        Console.WriteLine($"{numero1} * {numero2} = {multi}");
+        Console.WriteLine($"{numero1} / {numero2} = {multi} i en sobra {porcentaje}");
+
     }
 }
