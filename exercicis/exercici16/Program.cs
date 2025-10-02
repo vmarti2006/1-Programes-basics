@@ -13,6 +13,19 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("La nota final de practiques:");
+        string practiques_car = Console.ReadLine();
+        double practiques = Convert.ToInt16(practiques_car);
+        double practiques_porcentaje = (double)practiques * 0.40;
+
+        Console.Write("La nota final de examen:");
+        string examen_car = Console.ReadLine();
+        double examen = Convert.ToInt16(examen_car);
+        double examen_porcentaje = (double)examen * 0.60;
+
+        double resultat = examen_porcentaje + practiques_porcentaje;
+        int resultat_arrodonit =(int) resultat;
+
+        Console.WriteLine($"Has tret un {resultat}, per tan es queda en {resultat_arrodonit}");
     }
 }
