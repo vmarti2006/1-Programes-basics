@@ -15,6 +15,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Numero llegir: ");
+        string numero_car = Console.ReadLine();
+        float numero = float.Parse(numero_car);  
+
+        int numero_enter = (int) numero;
+        float final = (float) numero - numero_enter;
+
+        Console.WriteLine(final);
     }
 }

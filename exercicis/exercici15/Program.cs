@@ -15,6 +15,11 @@ class Program
         Console.Write("Sego cognoms: ");
         string cognom2 = Console.ReadLine();
 
+        nom = char.ToUpper(nom[0]) + nom.Substring(1).ToLower();
+        cognom1 = char.ToUpper(cognom1[0]) + cognom1.Substring(1).ToLower();
+        cognom2 = char.ToUpper(cognom2[0]) + cognom2.Substring(1).ToLower();
+
+
         // Concatenem els cognoms
         string cognoms = string.Concat(cognom1, " ", cognom2);
         // Nom + primer cognom
