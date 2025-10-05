@@ -11,13 +11,13 @@ D'aquí a 3 hores seran les 12
 Hora actual: 11
 Hores a incrementar: 3
 D'aquí a 3 hores seran les 2
-*/ 
+*/
 
 class Program
 {
     static void Main(string[] args)
     {
-       Console.Write("Hora actual (1–12): ");
+        Console.Write("Hora actual (1–12): ");
         int horaActual = int.Parse(Console.ReadLine());
 
         Console.Write("Hores a incrementar: ");

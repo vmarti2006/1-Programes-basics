@@ -20,7 +20,7 @@ class Program
 
         float decimals = numero - (int)numero;
 
-        Console.WriteLine("Nombre meravellós: " + decimals);
+        Console.WriteLine($"Nombre meravellós: {decimals:F2}");
     }
 }
 
