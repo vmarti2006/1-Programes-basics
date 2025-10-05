@@ -26,6 +26,6 @@ class Program
         double resultat = examen_porcentaje + practiques_porcentaje;
         int resultat_arrodonit =(int) resultat;
 
-        Console.WriteLine($"Has tret un {resultat}, per tan es queda en {resultat_arrodonit}");
+        Console.WriteLine($"Has tret un {resultat:F2}, per tan es queda en {resultat_arrodonit}");
     }
 }
