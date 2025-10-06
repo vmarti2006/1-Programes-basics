@@ -15,21 +15,26 @@
 ![alt text](/exercicis/imgenes/image5.png)
 ## Exercici 6
 - Fatx que calculi el perimetre de un cuadrat.
+
 ![alt text](/exercicis/imgenes/image6.png)
 ## Exercici 7
 - Li fatg demanar 3 numeros i yo calcu-lo la mitjana.
+
 ![alt text](/exercicis/imgenes/image7.png)
 ## Exercici 8
 - Insereixo els minuts i m'ho torna en hores.
+
 ![alt text](/exercicis/imgenes/image8.png)
 ## Exercici 9
 - Insereixo els metres i m'ho torna en peus.
+
 ![alt text](/exercicis/imgenes/image9.png)
 ## Exercici 10
 - En vase a el teu nom i el teu any de naixement crea una contrasenya.
 ![alt text](/exercicis/imgenes/image10.png)
 ## Exercici 11
 - En vase al teu nom i el domini et crea el Corru.
+
 ![alt text](/exercicis/imgenes/image11.png)
 ## Exercici 12
 - Inserint dos numeros et fa totes les operacions basiques.
@@ -57,4 +62,5 @@
 ![alt text](/exercicis/imgenes/image19.png)
 ## Exercici 20
 - Tescriura el numero al reves.
+
 ![alt text](/exercicis/imgenes/image20.png)
