@@ -12,6 +12,6 @@ class Program
         string paraula = Console.ReadLine();
         int longitudn = paraula.Length;
 
-        Console.WriteLine($"la paraula es{paraula} i te {longitudn} lletre");
+        Console.WriteLine($"la paraula es {paraula} i te {longitudn} lletre");
     }
 }

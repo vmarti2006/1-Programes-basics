@@ -25,6 +25,6 @@ class Program
 
         double mitjana = total/3;
 
-        Console.WriteLine($"La suma de {numer1},{numer2},{numer3} es {total} i la seva mitjana es {mitjana}");
+        Console.WriteLine($"La suma de {numer1},{numer2},{numer3} es {total} i la seva mitjana es {mitjana:F2}");
     }
 }

@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("Un total de ");
+        Console.Write("En minutos a pasado ");
         string minuts_car = Console.ReadLine();
         int minuts = Convert.ToInt16(minuts_car);
 

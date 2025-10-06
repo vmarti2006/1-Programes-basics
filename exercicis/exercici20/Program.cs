@@ -12,6 +12,22 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Entra el número a invertir: ");
+        string input = Console.ReadLine();
+
+        // Comprovem que el número té exactament 3 xifres
+        if (input.Length == 3 && int.TryParse(input, out int number))
+        {
+            // Invertim els dígits
+            char[] digits = input.ToCharArray();
+            Array.Reverse(digits);
+            string reversed = new string(digits);
+
+            Console.WriteLine("El número invertit és: " + reversed);
+        }
+        else
+        {
+            Console.WriteLine("Si us plau, entra un número de tres xifres.");
+        }
     }
 }
